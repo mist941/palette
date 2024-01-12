@@ -1,0 +1,9 @@
+@use 'sass:color';
+
+@function rgba-color($hex, $alpha: 1) {
+  $red: color.red($hex) / 255;
+  $green: color.green($hex) / 255;
+  $blue: color.blue($hex) / 255;
+
+  @return rgba($red, $green, $blue, $alpha);
+}
