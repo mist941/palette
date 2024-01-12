@@ -1,12 +1,13 @@
 {
   "name": "@mist/palette",
   "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "author": "mist941",
   "description": "Color set library",
   "main": "index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["scss", "variables", "library", "colors", "palette"],
-  "author": "mist941",
-  "license": "MIT"
+  "keywords": ["scss", "variables", "library", "colors", "palette"]
 }
